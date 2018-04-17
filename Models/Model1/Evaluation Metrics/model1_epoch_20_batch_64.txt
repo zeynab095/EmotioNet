@@ -1,0 +1,90 @@
+  model.add(Conv2D(32, 3,3,  activation='relu'))
+Train on 2400 samples, validate on 600 samples
+Epoch 1/20
+ - 65s - loss: 1.7842 - acc: 0.2300 - val_loss: 1.7340 - val_acc: 0.2017
+
+?
+Epoch 2/20
+ - 1s - loss: 1.4009 - acc: 0.4167 - val_loss: 1.0736 - val_acc: 0.4967
+
+?
+Epoch 3/20
+ - 1s - loss: 1.0146 - acc: 0.5417 - val_loss: 0.9266 - val_acc: 0.6333
+
+?
+Epoch 4/20
+ - 1s - loss: 0.8508 - acc: 0.6292 - val_loss: 0.8279 - val_acc: 0.6517
+
+?
+Epoch 5/20
+ - 1s - loss: 0.7310 - acc: 0.6875 - val_loss: 0.7274 - val_acc: 0.6850
+
+?
+Epoch 6/20
+ - 1s - loss: 0.6176 - acc: 0.7512 - val_loss: 0.7562 - val_acc: 0.6950
+
+?
+Epoch 7/20
+ - 1s - loss: 0.4987 - acc: 0.8033 - val_loss: 0.7638 - val_acc: 0.6800
+
+?
+Epoch 8/20
+ - 1s - loss: 0.4477 - acc: 0.8354 - val_loss: 0.7140 - val_acc: 0.6867
+
+?
+Epoch 9/20
+ - 1s - loss: 0.3797 - acc: 0.8554 - val_loss: 0.5579 - val_acc: 0.7567
+
+?
+Epoch 10/20
+ - 1s - loss: 0.3572 - acc: 0.8671 - val_loss: 0.7582 - val_acc: 0.7183
+
+?
+Epoch 11/20
+ - 1s - loss: 0.3112 - acc: 0.8900 - val_loss: 0.5904 - val_acc: 0.7633
+
+?
+Epoch 12/20
+ - 1s - loss: 0.2798 - acc: 0.8988 - val_loss: 0.7433 - val_acc: 0.7367
+
+?
+Epoch 13/20
+ - 1s - loss: 0.2340 - acc: 0.9133 - val_loss: 0.6320 - val_acc: 0.7533
+
+?
+Epoch 14/20
+ - 1s - loss: 0.2162 - acc: 0.9242 - val_loss: 0.7311 - val_acc: 0.7600
+
+?
+Epoch 15/20
+ - 1s - loss: 0.1959 - acc: 0.9279 - val_loss: 0.6131 - val_acc: 0.7267
+
+?
+Epoch 16/20
+ - 1s - loss: 0.1886 - acc: 0.9396 - val_loss: 0.7885 - val_acc: 0.7517
+
+?
+Epoch 17/20
+ - 1s - loss: 0.1444 - acc: 0.9521 - val_loss: 0.8124 - val_acc: 0.7583
+
+?
+Epoch 18/20
+ - 1s - loss: 0.1394 - acc: 0.9496 - val_loss: 0.6882 - val_acc: 0.7617
+
+?
+Epoch 19/20
+ - 2s - loss: 0.1318 - acc: 0.9529 - val_loss: 0.6832 - val_acc: 0.7617
+
+?
+Epoch 20/20
+ - 1s - loss: 0.1178 - acc: 0.9600 - val_loss: 0.7290 - val_acc: 0.7650
+
+?
+Baseline Error: 23.50%
+Test score: 0.7289514873921871
+Test accuracy: 0.765
+Saved model to disk
+--------------Training accuracy---------------------------------------
+0.975
+--------------Testing accuracy---------------------------------------
+0.7583333333333333
