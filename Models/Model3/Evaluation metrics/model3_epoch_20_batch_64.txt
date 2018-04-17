@@ -1,0 +1,100 @@
+Train on 2400 samples, validate on 600 samples
+Epoch 1/20
+ - 12s - loss: 1.7923 - acc: 0.1588 - val_loss: 1.7916 - val_acc: 0.1667
+
+?
+Epoch 2/20
+ - 11s - loss: 1.7922 - acc: 0.1604 - val_loss: 1.7918 - val_acc: 0.1667
+
+?
+Epoch 3/20
+ - 11s - loss: 1.7918 - acc: 0.1737 - val_loss: 1.7907 - val_acc: 0.1667
+
+?
+Epoch 4/20
+ - 12s - loss: 1.7294 - acc: 0.2638 - val_loss: 1.6575 - val_acc: 0.2417
+
+?
+Epoch 5/20
+ - 11s - loss: 1.4393 - acc: 0.3754 - val_loss: 1.1679 - val_acc: 0.5050
+
+?
+Epoch 6/20
+ - 11s - loss: 1.1070 - acc: 0.5529 - val_loss: 0.8416 - val_acc: 0.6283
+
+?
+Epoch 7/20
+ - 11s - loss: 0.8481 - acc: 0.6596 - val_loss: 1.0228 - val_acc: 0.5767
+
+?
+Epoch 8/20
+ - 11s - loss: 0.7731 - acc: 0.6775 - val_loss: 0.7292 - val_acc: 0.6267
+
+?
+Epoch 9/20
+ - 11s - loss: 0.6889 - acc: 0.7142 - val_loss: 0.6807 - val_acc: 0.6783
+
+?
+Epoch 10/20
+ - 11s - loss: 0.6212 - acc: 0.7467 - val_loss: 0.6324 - val_acc: 0.6933
+
+?
+Epoch 11/20
+ - 11s - loss: 0.5241 - acc: 0.7817 - val_loss: 0.7026 - val_acc: 0.7317
+
+?
+Epoch 12/20
+ - 11s - loss: 0.4836 - acc: 0.7987 - val_loss: 0.6442 - val_acc: 0.7217
+
+?
+Epoch 13/20
+ - 11s - loss: 0.4285 - acc: 0.8367 - val_loss: 0.6266 - val_acc: 0.7350
+
+?
+Epoch 14/20
+ - 11s - loss: 0.3930 - acc: 0.8433 - val_loss: 0.8718 - val_acc: 0.6883
+
+?
+Epoch 15/20
+ - 12s - loss: 0.3364 - acc: 0.8721 - val_loss: 0.6117 - val_acc: 0.7483
+
+?
+Epoch 16/20
+ - 11s - loss: 0.3156 - acc: 0.8758 - val_loss: 0.6875 - val_acc: 0.7033
+
+?
+Epoch 17/20
+ - 11s - loss: 0.3010 - acc: 0.8863 - val_loss: 0.6506 - val_acc: 0.7400
+
+?
+Epoch 18/20
+ - 11s - loss: 0.2870 - acc: 0.8908 - val_loss: 0.9324 - val_acc: 0.7217
+
+?
+Epoch 19/20
+ - 11s - loss: 0.1990 - acc: 0.9287 - val_loss: 0.8621 - val_acc: 0.7167
+
+?
+Epoch 20/20
+ - 11s - loss: 0.1753 - acc: 0.9333 - val_loss: 0.6621 - val_acc: 0.7650
+
+?
+Baseline Error: 23.50%
+Test score: 0.6620780898133913
+Test accuracy: 0.7650000007947286
+Saved model to disk
+--------------Training accuracy---------------------------------------
+0.9458333333333333
+--------------Testing accuracy---------------------------------------
+0.7433333333333333
+--------------Testing precision---------------------------------------
+0.7636157592918942
+--------------Testing recall---------------------------------------
+0.7433333333333333
+--------------Confusion matrix---------------------------------------
+[[99  0  0  1  0  0]
+ [ 6 20 19  0  0 55]
+ [ 6  5 68  0 17  4]
+ [ 4  6  0 89  0  1]
+ [ 0  0  0  3 94  3]
+ [ 9  8  1  4  2 76]]

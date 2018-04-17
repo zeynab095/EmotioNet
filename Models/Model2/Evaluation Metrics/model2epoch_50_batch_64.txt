@@ -1,0 +1,222 @@
+C:/Users/user/Desktop/sdp/Train_Cohn_Kanade/train_keras_conv.py:109: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(128, (3, 3), activation="relu")`
+  model.add(MaxPooling2D(pool_size=(2, 2)))
+Train on 2400 samples, validate on 600 samples
+Epoch 1/50
+ - 2s - loss: 1.7800 - acc: 0.2292 - val_loss: 1.6846 - val_acc: 0.3317
+
+?
+Epoch 2/50
+ - 1s - loss: 1.2233 - acc: 0.5025 - val_loss: 0.9996 - val_acc: 0.5550
+
+?
+Epoch 3/50
+ - 1s - loss: 0.8000 - acc: 0.6721 - val_loss: 0.7572 - val_acc: 0.6600
+
+?
+Epoch 4/50
+ - 2s - loss: 0.5903 - acc: 0.7667 - val_loss: 0.7095 - val_acc: 0.6883
+
+?
+Epoch 5/50
+ - 1s - loss: 0.4439 - acc: 0.8254 - val_loss: 0.6763 - val_acc: 0.7383
+
+?
+Epoch 6/50
+ - 2s - loss: 0.3381 - acc: 0.8717 - val_loss: 0.9494 - val_acc: 0.7117
+
+?
+Epoch 7/50
+ - 1s - loss: 0.2929 - acc: 0.8942 - val_loss: 0.6930 - val_acc: 0.7550
+
+?
+Epoch 8/50
+ - 1s - loss: 0.2267 - acc: 0.9237 - val_loss: 0.6128 - val_acc: 0.7717
+
+?
+Epoch 9/50
+ - 1s - loss: 0.1721 - acc: 0.9446 - val_loss: 0.5915 - val_acc: 0.7750
+
+?
+Epoch 10/50
+ - 1s - loss: 0.1295 - acc: 0.9604 - val_loss: 0.6142 - val_acc: 0.7950
+
+?
+Epoch 11/50
+ - 1s - loss: 0.1055 - acc: 0.9650 - val_loss: 0.6578 - val_acc: 0.7750
+
+?
+Epoch 12/50
+ - 1s - loss: 0.1135 - acc: 0.9625 - val_loss: 0.6148 - val_acc: 0.8000
+
+?
+Epoch 13/50
+ - 1s - loss: 0.0713 - acc: 0.9804 - val_loss: 0.7077 - val_acc: 0.7717
+
+?
+Epoch 14/50
+ - 1s - loss: 0.0863 - acc: 0.9683 - val_loss: 1.1200 - val_acc: 0.7367
+
+?
+Epoch 15/50
+ - 1s - loss: 0.0734 - acc: 0.9771 - val_loss: 0.7873 - val_acc: 0.7983
+
+?
+Epoch 16/50
+ - 1s - loss: 0.0645 - acc: 0.9762 - val_loss: 0.7005 - val_acc: 0.7800
+
+?
+Epoch 17/50
+ - 1s - loss: 0.0545 - acc: 0.9842 - val_loss: 0.8287 - val_acc: 0.7717
+
+?
+Epoch 18/50
+ - 1s - loss: 0.0362 - acc: 0.9879 - val_loss: 1.0106 - val_acc: 0.7633
+
+?
+Epoch 19/50
+ - 1s - loss: 0.0563 - acc: 0.9842 - val_loss: 0.8941 - val_acc: 0.7850
+
+?
+Epoch 20/50
+ - 1s - loss: 0.0329 - acc: 0.9887 - val_loss: 0.7847 - val_acc: 0.7967
+
+?
+Epoch 21/50
+ - 1s - loss: 0.0276 - acc: 0.9912 - val_loss: 1.3552 - val_acc: 0.7383
+
+?
+Epoch 22/50
+ - 1s - loss: 0.0342 - acc: 0.9896 - val_loss: 1.2026 - val_acc: 0.7400
+
+?
+Epoch 23/50
+ - 1s - loss: 0.0306 - acc: 0.9896 - val_loss: 0.6682 - val_acc: 0.8033
+
+?
+Epoch 24/50
+ - 1s - loss: 0.0355 - acc: 0.9862 - val_loss: 0.7896 - val_acc: 0.7817
+
+?
+Epoch 25/50
+ - 1s - loss: 0.0513 - acc: 0.9825 - val_loss: 1.3399 - val_acc: 0.7317
+
+?
+Epoch 26/50
+ - 1s - loss: 0.0611 - acc: 0.9804 - val_loss: 0.9116 - val_acc: 0.7617
+
+?
+Epoch 27/50
+ - 1s - loss: 0.0186 - acc: 0.9967 - val_loss: 0.6905 - val_acc: 0.7883
+
+?
+Epoch 28/50
+ - 1s - loss: 0.0584 - acc: 0.9788 - val_loss: 0.6564 - val_acc: 0.8200
+
+?
+Epoch 29/50
+ - 1s - loss: 0.0176 - acc: 0.9942 - val_loss: 0.9198 - val_acc: 0.7933
+
+?
+Epoch 30/50
+ - 1s - loss: 0.0089 - acc: 0.9983 - val_loss: 1.2276 - val_acc: 0.7700
+
+?
+Epoch 31/50
+ - 1s - loss: 0.0038 - acc: 1.0000 - val_loss: 1.2047 - val_acc: 0.7800
+
+?
+Epoch 32/50
+ - 1s - loss: 0.0024 - acc: 0.9996 - val_loss: 1.1079 - val_acc: 0.7917
+
+?
+Epoch 33/50
+ - 1s - loss: 0.0029 - acc: 0.9996 - val_loss: 0.9791 - val_acc: 0.7933
+
+?
+Epoch 34/50
+ - 1s - loss: 0.0024 - acc: 0.9996 - val_loss: 0.9583 - val_acc: 0.7917
+
+?
+Epoch 35/50
+ - 1s - loss: 0.0013 - acc: 1.0000 - val_loss: 1.1164 - val_acc: 0.7933
+
+?
+Epoch 36/50
+ - 1s - loss: 0.0011 - acc: 1.0000 - val_loss: 1.1757 - val_acc: 0.7833
+
+?
+Epoch 37/50
+ - 1s - loss: 8.5436e-04 - acc: 1.0000 - val_loss: 1.2028 - val_acc: 0.7850
+
+?
+Epoch 38/50
+ - 1s - loss: 8.3943e-04 - acc: 1.0000 - val_loss: 1.2320 - val_acc: 0.7850
+
+?
+Epoch 39/50
+ - 1s - loss: 7.1411e-04 - acc: 1.0000 - val_loss: 1.1840 - val_acc: 0.7850
+
+?
+Epoch 40/50
+ - 1s - loss: 6.3587e-04 - acc: 1.0000 - val_loss: 1.2637 - val_acc: 0.7783
+
+?
+Epoch 41/50
+ - 1s - loss: 6.8519e-04 - acc: 1.0000 - val_loss: 1.1823 - val_acc: 0.7883
+
+?
+Epoch 42/50
+ - 1s - loss: 7.4008e-04 - acc: 1.0000 - val_loss: 1.2673 - val_acc: 0.7800
+
+?
+Epoch 43/50
+ - 1s - loss: 6.9320e-04 - acc: 1.0000 - val_loss: 1.2102 - val_acc: 0.7817
+
+?
+Epoch 44/50
+ - 1s - loss: 4.5590e-04 - acc: 1.0000 - val_loss: 1.2640 - val_acc: 0.7883
+
+?
+Epoch 45/50
+ - 1s - loss: 4.8109e-04 - acc: 1.0000 - val_loss: 1.2290 - val_acc: 0.7850
+
+?
+Epoch 46/50
+ - 1s - loss: 4.0699e-04 - acc: 1.0000 - val_loss: 1.2106 - val_acc: 0.7867
+
+?
+Epoch 47/50
+ - 1s - loss: 4.0630e-04 - acc: 1.0000 - val_loss: 1.2405 - val_acc: 0.7867
+
+?
+Epoch 48/50
+ - 1s - loss: 3.6395e-04 - acc: 1.0000 - val_loss: 1.2538 - val_acc: 0.7850
+
+?
+Epoch 49/50
+ - 1s - loss: 3.4347e-04 - acc: 1.0000 - val_loss: 1.2749 - val_acc: 0.7833
+
+?
+Epoch 50/50
+ - 1s - loss: 3.5752e-04 - acc: 1.0000 - val_loss: 1.2557 - val_acc: 0.7867
+
+?
+Baseline Error: 21.33%
+Test score: 1.2556810627969146
+Test accuracy: 0.7866666658719381
+Saved model to disk
+--------------Training accuracy---------------------------------------
+1.0
+--------------Testing accuracy---------------------------------------
+0.785
+--------------Testing precision---------------------------------------
+0.8370596010884745
+--------------Testing recall---------------------------------------
+0.785
+--------------Confusion matrix---------------------------------------
+[[ 99   0   0   0   1   0]
+ [  1  42   0   0   0  57]
+ [  1   2  51   0  37   9]
+ [  0   0   0 100   0   0]
+ [  0   0   2   0  94   4]
+ [  2   1   6   1   5  85]]

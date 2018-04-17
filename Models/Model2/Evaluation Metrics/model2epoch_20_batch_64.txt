@@ -1,0 +1,102 @@
+activation="relu")`
+  model.add(MaxPooling2D(pool_size=(2, 2)))
+Train on 2400 samples, validate on 600 samples
+Epoch 1/20
+ - 2s - loss: 1.7801 - acc: 0.2317 - val_loss: 1.6889 - val_acc: 0.2833
+
+?
+Epoch 2/20
+ - 1s - loss: 1.2215 - acc: 0.5046 - val_loss: 0.9939 - val_acc: 0.5583
+
+?
+Epoch 3/20
+ - 1s - loss: 0.7857 - acc: 0.6792 - val_loss: 0.7368 - val_acc: 0.6750
+
+?
+Epoch 4/20
+ - 1s - loss: 0.5831 - acc: 0.7725 - val_loss: 0.7038 - val_acc: 0.6767
+
+?
+Epoch 5/20
+ - 1s - loss: 0.4274 - acc: 0.8408 - val_loss: 0.6942 - val_acc: 0.7167
+
+?
+Epoch 6/20
+ - 1s - loss: 0.3197 - acc: 0.8821 - val_loss: 0.7582 - val_acc: 0.7333
+
+?
+Epoch 7/20
+ - 1s - loss: 0.2821 - acc: 0.8967 - val_loss: 0.6371 - val_acc: 0.7550
+
+?
+Epoch 8/20
+ - 1s - loss: 0.2226 - acc: 0.9258 - val_loss: 0.6512 - val_acc: 0.7550
+
+?
+Epoch 9/20
+ - 1s - loss: 0.1691 - acc: 0.9467 - val_loss: 0.5522 - val_acc: 0.7783
+
+?
+Epoch 10/20
+ - 1s - loss: 0.1341 - acc: 0.9571 - val_loss: 0.6528 - val_acc: 0.7800
+
+?
+Epoch 11/20
+ - 1s - loss: 0.1088 - acc: 0.9613 - val_loss: 0.7650 - val_acc: 0.7550
+
+?
+Epoch 12/20
+ - 1s - loss: 0.1133 - acc: 0.9671 - val_loss: 0.6114 - val_acc: 0.7817
+
+?
+Epoch 13/20
+ - 1s - loss: 0.0787 - acc: 0.9775 - val_loss: 0.7561 - val_acc: 0.7633
+
+?
+Epoch 14/20
+ - 1s - loss: 0.0976 - acc: 0.9667 - val_loss: 1.1222 - val_acc: 0.7067
+
+?
+Epoch 15/20
+ - 1s - loss: 0.0823 - acc: 0.9746 - val_loss: 0.8211 - val_acc: 0.7633
+
+?
+Epoch 16/20
+ - 1s - loss: 0.0717 - acc: 0.9758 - val_loss: 0.6520 - val_acc: 0.7867
+
+?
+Epoch 17/20
+ - 1s - loss: 0.0606 - acc: 0.9800 - val_loss: 0.6381 - val_acc: 0.7800
+
+?
+Epoch 18/20
+ - 1s - loss: 0.0654 - acc: 0.9796 - val_loss: 0.6118 - val_acc: 0.7833
+
+?
+Epoch 19/20
+ - 1s - loss: 0.0444 - acc: 0.9883 - val_loss: 0.8658 - val_acc: 0.7700
+
+?
+Epoch 20/20
+ - 1s - loss: 0.0292 - acc: 0.9912 - val_loss: 0.9954 - val_acc: 0.7833
+
+?
+Baseline Error: 21.67%
+Test score: 0.995356336364833
+Test accuracy: 0.7833333333333333
+Saved model to disk
+--------------Training accuracy---------------------------------------
+0.9883333333333333
+--------------Testing accuracy---------------------------------------
+0.78
+--------------Testing precision---------------------------------------
+0.838490543329253
+--------------Testing recall---------------------------------------
+0.78
+--------------Confusion matrix---------------------------------------
+[[100   0   0   0   0   0]
+ [  0  37   0   2   0  61]
+ [  2   0  58   0  31   9]
+ [  0   0   0 100   0   0]
+ [  2   0   3   1  91   3]
+ [  1   0   5   8   4  82]]

@@ -1,0 +1,119 @@
+?
+runfile('C:/Users/user/Desktop/sdp/Train_Cohn_Kanade/train_keras_conv.py', wdir='C:/Users/user/Desktop/sdp/Train_Cohn_Kanade')
+Reloaded modules: angry_pixel
+C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\scipy\ndimage\interpolation.py:616: UserWarning: From scipy 0.13.0, the output shape of zoom() is calculated with round() instead of int() - for these inputs the size of the returned array has changed.
+  "the returned array has changed.", UserWarning)
+(2400, 128, 128)
+2400
+(2400, 6)
+[1. 0. 0. 0. 0. 0.]
+C:/Users/user/Desktop/sdp/Train_Cohn_Kanade/train_keras_conv.py:107: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(32, (7, 7), activation="relu", input_shape=(128, 128,...)`
+  model.add(Conv2D(32, 7,7, input_shape=(128, 128, 1), activation='relu'))
+C:/Users/user/Desktop/sdp/Train_Cohn_Kanade/train_keras_conv.py:109: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(32, (5, 5), activation="relu")`
+  model.add(Conv2D(32, 5,5,  activation='relu'))
+C:/Users/user/Desktop/sdp/Train_Cohn_Kanade/train_keras_conv.py:111: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(32, (5, 5), activation="relu")`
+  model.add(Conv2D(32, 5,5, activation='relu'))
+C:/Users/user/Desktop/sdp/Train_Cohn_Kanade/train_keras_conv.py:113: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(32, (3, 3), activation="relu")`
+  model.add(Conv2D(32, 3,3,  activation='relu'))
+C:/Users/user/Desktop/sdp/Train_Cohn_Kanade/train_keras_conv.py:115: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(32, (3, 3), activation="relu")`
+  model.add(Conv2D(32, 3,3, activation='relu'))
+Train on 2400 samples, validate on 600 samples
+Epoch 1/20
+ - 13s - loss: 1.7924 - acc: 0.1537 - val_loss: 1.7916 - val_acc: 0.1700
+
+?
+Epoch 2/20
+ - 12s - loss: 1.7555 - acc: 0.2296 - val_loss: 1.4788 - val_acc: 0.4817
+
+?
+Epoch 3/20
+ - 12s - loss: 1.2035 - acc: 0.5233 - val_loss: 1.0714 - val_acc: 0.5333
+
+?
+Epoch 4/20
+ - 12s - loss: 0.8272 - acc: 0.6362 - val_loss: 0.7649 - val_acc: 0.6700
+
+?
+Epoch 5/20
+ - 12s - loss: 0.6027 - acc: 0.7471 - val_loss: 0.7841 - val_acc: 0.6750
+
+?
+Epoch 6/20
+ - 12s - loss: 0.4736 - acc: 0.8108 - val_loss: 0.6537 - val_acc: 0.7133
+
+?
+Epoch 7/20
+ - 12s - loss: 0.3687 - acc: 0.8637 - val_loss: 0.6822 - val_acc: 0.7400
+
+?
+Epoch 8/20
+ - 12s - loss: 0.3103 - acc: 0.8875 - val_loss: 0.7223 - val_acc: 0.7233
+
+?
+Epoch 9/20
+ - 12s - loss: 0.2600 - acc: 0.9029 - val_loss: 0.8220 - val_acc: 0.7483
+
+?
+Epoch 10/20
+ - 12s - loss: 0.1989 - acc: 0.9304 - val_loss: 0.7185 - val_acc: 0.7717
+
+?
+Epoch 11/20
+ - 12s - loss: 0.1712 - acc: 0.9421 - val_loss: 1.1928 - val_acc: 0.6967
+
+?
+Epoch 12/20
+ - 12s - loss: 0.1307 - acc: 0.9550 - val_loss: 0.7977 - val_acc: 0.7733
+
+?
+Epoch 13/20
+ - 12s - loss: 0.0773 - acc: 0.9750 - val_loss: 0.9192 - val_acc: 0.7600
+
+?
+Epoch 14/20
+ - 12s - loss: 0.0807 - acc: 0.9758 - val_loss: 1.1122 - val_acc: 0.7450
+
+?
+Epoch 15/20
+ - 12s - loss: 0.0544 - acc: 0.9842 - val_loss: 0.9800 - val_acc: 0.7883
+
+?
+Epoch 16/20
+ - 12s - loss: 0.0349 - acc: 0.9925 - val_loss: 0.9038 - val_acc: 0.7867
+
+?
+Epoch 17/20
+ - 12s - loss: 0.0405 - acc: 0.9850 - val_loss: 1.2514 - val_acc: 0.7500
+
+?
+Epoch 18/20
+ - 12s - loss: 0.0300 - acc: 0.9912 - val_loss: 1.3949 - val_acc: 0.7350
+
+?
+Epoch 19/20
+ - 12s - loss: 0.0274 - acc: 0.9900 - val_loss: 1.0373 - val_acc: 0.7700
+
+?
+Epoch 20/20
+ - 12s - loss: 0.0373 - acc: 0.9904 - val_loss: 1.4888 - val_acc: 0.7517
+
+?
+Baseline Error: 24.83%
+Test score: 1.488785828901843
+Test accuracy: 0.7516666674613952
+Saved model to disk
+--------------Training accuracy---------------------------------------
+0.9941666666666666
+--------------Testing accuracy---------------------------------------
+0.7483333333333333
+--------------Testing precision---------------------------------------
+0.801967933275249
+--------------Testing recall---------------------------------------
+0.7483333333333333
+--------------Confusion matrix---------------------------------------
+[[98  0  0  0  0  2]
+ [ 3 30 15  3  3 46]
+ [ 4  0 47  0 31 18]
+ [ 0  1  0 94  0  5]
+ [ 0  0  3  3 91  3]
+ [ 1  0  4  2  4 89]]

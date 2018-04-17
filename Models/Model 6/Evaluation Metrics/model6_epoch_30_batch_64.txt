@@ -1,0 +1,300 @@
+
+Train on 2400 samples, validate on 600 samples
+Epoch 1/30
+ - 13s - loss: 1.7942 - acc: 0.1713 - val_loss: 1.7920 - val_acc: 0.1667
+
+?
+Epoch 2/30
+ - 12s - loss: 1.7925 - acc: 0.1500 - val_loss: 1.7917 - val_acc: 0.1667
+
+?
+Epoch 3/30
+ - 12s - loss: 1.7912 - acc: 0.1733 - val_loss: 1.7906 - val_acc: 0.1667
+
+?
+Epoch 4/30
+ - 12s - loss: 1.7916 - acc: 0.1687 - val_loss: 1.7886 - val_acc: 0.2583
+
+?
+Epoch 5/30
+ - 12s - loss: 1.7078 - acc: 0.2587 - val_loss: 1.3352 - val_acc: 0.4350
+
+?
+Epoch 6/30
+ - 12s - loss: 1.0831 - acc: 0.5463 - val_loss: 0.7480 - val_acc: 0.6983
+
+?
+Epoch 7/30
+ - 12s - loss: 0.8060 - acc: 0.6708 - val_loss: 0.6135 - val_acc: 0.7317
+
+?
+Epoch 8/30
+ - 12s - loss: 0.6844 - acc: 0.7283 - val_loss: 0.6194 - val_acc: 0.7383
+
+?
+Epoch 9/30
+ - 12s - loss: 0.5053 - acc: 0.8104 - val_loss: 0.4588 - val_acc: 0.8133
+
+?
+Epoch 10/30
+ - 13s - loss: 0.4234 - acc: 0.8421 - val_loss: 0.4310 - val_acc: 0.8417
+
+?
+Epoch 11/30
+ - 12s - loss: 0.3740 - acc: 0.8579 - val_loss: 0.3597 - val_acc: 0.8650
+
+?
+Epoch 12/30
+ - 13s - loss: 0.3179 - acc: 0.8846 - val_loss: 0.3443 - val_acc: 0.8550
+
+?
+Epoch 13/30
+ - 12s - loss: 0.3160 - acc: 0.8892 - val_loss: 0.4385 - val_acc: 0.8117
+
+?
+Epoch 14/30
+ - 12s - loss: 0.2582 - acc: 0.9079 - val_loss: 0.3660 - val_acc: 0.8517
+
+?
+Epoch 15/30
+ - 12s - loss: 0.2214 - acc: 0.9229 - val_loss: 0.4999 - val_acc: 0.8333
+
+?
+Epoch 16/30
+ - 12s - loss: 0.2414 - acc: 0.9183 - val_loss: 0.4641 - val_acc: 0.8300
+
+?
+Epoch 17/30
+ - 13s - loss: 0.1988 - acc: 0.9296 - val_loss: 0.3207 - val_acc: 0.8733
+
+?
+Epoch 18/30
+ - 12s - loss: 0.1588 - acc: 0.9458 - val_loss: 0.4491 - val_acc: 0.8467
+
+?
+Epoch 19/30
+ - 12s - loss: 0.1480 - acc: 0.9483 - val_loss: 0.4058 - val_acc: 0.8717
+
+?
+Epoch 20/30
+ - 12s - loss: 0.1518 - acc: 0.9458 - val_loss: 0.3391 - val_acc: 0.8900
+
+?
+Epoch 21/30
+ - 12s - loss: 0.1393 - acc: 0.9521 - val_loss: 0.5473 - val_acc: 0.8500
+
+?
+Epoch 22/30
+ - 13s - loss: 0.1348 - acc: 0.9550 - val_loss: 0.5888 - val_acc: 0.8367
+
+?
+Epoch 23/30
+ - 12s - loss: 0.1601 - acc: 0.9433 - val_loss: 0.4102 - val_acc: 0.8617
+
+?
+Epoch 24/30
+ - 13s - loss: 0.1118 - acc: 0.9608 - val_loss: 0.4630 - val_acc: 0.8550
+
+?
+Epoch 25/30
+ - 12s - loss: 0.1134 - acc: 0.9613 - val_loss: 0.3939 - val_acc: 0.8800
+
+?
+Epoch 26/30
+ - 12s - loss: 0.1107 - acc: 0.9608 - val_loss: 0.3605 - val_acc: 0.8883
+
+?
+Epoch 27/30
+ - 13s - loss: 0.0909 - acc: 0.9667 - val_loss: 0.4465 - val_acc: 0.8633
+
+?
+Epoch 28/30
+ - 13s - loss: 0.1030 - acc: 0.9629 - val_loss: 0.5357 - val_acc: 0.8150
+
+?
+Epoch 29/30
+ - 13s - loss: 0.1438 - acc: 0.9467 - val_loss: 0.4302 - val_acc: 0.8450
+
+?
+Epoch 30/30
+ - 12s - loss: 0.1004 - acc: 0.9642 - val_loss: 0.3639 - val_acc: 0.8700
+
+?
+Baseline Error: 13.00%
+Test score: 0.3639209499961119
+Test accuracy: 0.8699999992052714
+Saved model to disk
+--------------Training accuracy---------------------------------------
+0.9970833333333333
+--------------Testing accuracy---------------------------------------
+0.85
+--------------Testing precision---------------------------------------
+0.8959138358530268
+--------------Testing recall---------------------------------------
+0.85
+--------------Confusion matrix---------------------------------------
+[[ 98   0   0   0   0   2]
+ [  6  64   0   0   0  30]
+ [ 10   3  72   0   7   8]
+ [  0   0   0 100   0   0]
+ [  2   0   3   0  92   3]
+ [  5   3   6   0   2  84]]
+
+runfile('C:/Users/user/Desktop/sdp/Train_Cohn_Kanade/train_keras_conv.py', wdir='C:/Users/user/Desktop/sdp/Train_Cohn_Kanade')
+Reloaded modules: angry_pixel
+C:\Users\user\Anaconda3\envs\tensorflow\lib\site-packages\scipy\ndimage\interpolation.py:616: UserWarning: From scipy 0.13.0, the output shape of zoom() is calculated with round() instead of int() - for these inputs the size of the returned array has changed.
+  "the returned array has changed.", UserWarning)
+(2400, 128, 128)
+2400
+(2400, 6)
+[1. 0. 0. 0. 0. 0.]
+C:/Users/user/Desktop/sdp/Train_Cohn_Kanade/train_keras_conv.py:107: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(32, (3, 3), activation="relu", input_shape=(128, 128,...)`
+  model.add(Conv2D(32, 3,3, input_shape=(dim, dim, 1), activation='relu'))
+C:/Users/user/Desktop/sdp/Train_Cohn_Kanade/train_keras_conv.py:109: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(32, (3, 3), activation="relu")`
+  model.add(Conv2D(32, 3,3,  activation='relu'))
+C:/Users/user/Desktop/sdp/Train_Cohn_Kanade/train_keras_conv.py:111: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(64, (3, 3), activation="relu")`
+  model.add(Dropout(03))
+C:/Users/user/Desktop/sdp/Train_Cohn_Kanade/train_keras_conv.py:114: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(64, (3, 3), activation="relu")`
+  model.add(Dropout(0.3))
+C:/Users/user/Desktop/sdp/Train_Cohn_Kanade/train_keras_conv.py:116: UserWarning: Update your `Conv2D` call to the Keras 2 API: `Conv2D(128, (3, 3), activation="relu")`
+  model.add(MaxPooling2D(pool_size=(2, 2)))
+Train on 2400 samples, validate on 600 samples
+Epoch 1/30
+ - 14s - loss: 1.7942 - acc: 0.1654 - val_loss: 1.7922 - val_acc: 0.1667
+
+?
+Epoch 2/30
+ - 12s - loss: 1.7925 - acc: 0.1617 - val_loss: 1.7916 - val_acc: 0.1667
+
+?
+Epoch 3/30
+ - 12s - loss: 1.7911 - acc: 0.1654 - val_loss: 1.7902 - val_acc: 0.1617
+
+?
+Epoch 4/30
+ - 12s - loss: 1.7412 - acc: 0.2354 - val_loss: 1.5651 - val_acc: 0.3200
+
+?
+Epoch 5/30
+ - 12s - loss: 1.4756 - acc: 0.3750 - val_loss: 1.3034 - val_acc: 0.4283
+
+?
+Epoch 6/30
+ - 12s - loss: 1.2135 - acc: 0.4754 - val_loss: 1.0483 - val_acc: 0.5533
+
+?
+Epoch 7/30
+ - 12s - loss: 1.0304 - acc: 0.5608 - val_loss: 0.8909 - val_acc: 0.5950
+
+?
+Epoch 8/30
+ - 12s - loss: 0.8635 - acc: 0.6412 - val_loss: 0.7425 - val_acc: 0.6683
+
+?
+Epoch 9/30
+ - 12s - loss: 0.6828 - acc: 0.7108 - val_loss: 0.6624 - val_acc: 0.6900
+
+?
+Epoch 10/30
+ - 12s - loss: 0.5661 - acc: 0.7742 - val_loss: 0.5493 - val_acc: 0.7650
+
+?
+Epoch 11/30
+ - 12s - loss: 0.4756 - acc: 0.8204 - val_loss: 0.4056 - val_acc: 0.8383
+
+?
+Epoch 12/30
+ - 12s - loss: 0.4007 - acc: 0.8604 - val_loss: 0.4474 - val_acc: 0.8233
+
+?
+Epoch 13/30
+ - 12s - loss: 0.3731 - acc: 0.8700 - val_loss: 0.3657 - val_acc: 0.8583
+
+?
+Epoch 14/30
+ - 12s - loss: 0.3244 - acc: 0.8879 - val_loss: 0.4415 - val_acc: 0.8467
+
+?
+Epoch 15/30
+ - 12s - loss: 0.2668 - acc: 0.9112 - val_loss: 0.3862 - val_acc: 0.8667
+
+?
+Epoch 16/30
+ - 12s - loss: 0.2206 - acc: 0.9246 - val_loss: 0.3335 - val_acc: 0.8750
+
+?
+Epoch 17/30
+ - 12s - loss: 0.2085 - acc: 0.9313 - val_loss: 0.3590 - val_acc: 0.8817
+
+?
+Epoch 18/30
+ - 12s - loss: 0.1766 - acc: 0.9417 - val_loss: 0.2982 - val_acc: 0.9083
+
+?
+Epoch 19/30
+ - 12s - loss: 0.1492 - acc: 0.9467 - val_loss: 0.3183 - val_acc: 0.8933
+
+?
+Epoch 20/30
+ - 12s - loss: 0.1545 - acc: 0.9471 - val_loss: 0.5604 - val_acc: 0.8467
+
+?
+Epoch 21/30
+ - 12s - loss: 0.1423 - acc: 0.9496 - val_loss: 0.3052 - val_acc: 0.9050
+
+?
+Epoch 22/30
+ - 12s - loss: 0.1670 - acc: 0.9442 - val_loss: 0.3363 - val_acc: 0.8783
+
+?
+Epoch 23/30
+ - 12s - loss: 0.1178 - acc: 0.9592 - val_loss: 0.3649 - val_acc: 0.8817
+
+?
+Epoch 24/30
+ - 12s - loss: 0.1179 - acc: 0.9633 - val_loss: 0.3892 - val_acc: 0.8783
+
+?
+Epoch 25/30
+ - 12s - loss: 0.1024 - acc: 0.9663 - val_loss: 0.3451 - val_acc: 0.9000
+
+?
+Epoch 26/30
+ - 12s - loss: 0.1173 - acc: 0.9596 - val_loss: 0.5471 - val_acc: 0.8450
+
+?
+Epoch 27/30
+ - 12s - loss: 0.0997 - acc: 0.9642 - val_loss: 0.4620 - val_acc: 0.8533
+
+?
+Epoch 28/30
+ - 12s - loss: 0.1010 - acc: 0.9696 - val_loss: 0.3234 - val_acc: 0.9017
+
+?
+Epoch 29/30
+ - 12s - loss: 0.0757 - acc: 0.9742 - val_loss: 0.3715 - val_acc: 0.8817
+
+?
+Epoch 30/30
+ - 12s - loss: 0.0777 - acc: 0.9700 - val_loss: 0.4775 - val_acc: 0.8817
+
+?
+Baseline Error: 11.83%
+Test score: 0.4774839197646361
+Test accuracy: 0.8816666666666667
+Saved model to disk
+--------------Training accuracy---------------------------------------
+0.9966666666666667
+--------------Testing accuracy---------------------------------------
+0.8816666666666667
+--------------Testing precision---------------------------------------
+0.9035366286215246
+--------------Testing recall---------------------------------------
+0.8816666666666667
+--------------Confusion matrix---------------------------------------
+[[ 98   0   0   0   0   2]
+ [  1  60   4   2   0  33]
+ [  0   0  95   0   0   5]
+ [  0   0   0 100   0   0]
+ [  0   0  13   0  84   3]
+ [  0   2   3   0   3  92]]
